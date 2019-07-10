@@ -1,15 +1,15 @@
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 # ---------------
-# theme_color:
-#   enable: true
-#   main: "#7A7FF1"
-#   paginator: "#7A7FF1"
-#   button_hover: "#FF7242"
-#   text_selection: "#69c46d"
-#   link_color: "#858585"
-#   hr_color: "#A4D8FA"
-#   read-mode-bg_color: '#FAF9DE'
+theme_color:
+  enable: true
+  main: "#143762"
+  paginator: "#ff0003"
+  button_hover: "#ff0003"
+  text_selection: "#bba159"
+  link_color: "#ef5202"
+  hr_color: "#96a7b6"
+  read-mode-bg_color: '#FAF9DE'
 
 # Main menu navigation
 # format: xxx: /xxx/||icon

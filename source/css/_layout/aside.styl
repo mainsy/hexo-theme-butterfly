@@ -26,13 +26,14 @@
       display: inline-block
       vertical-align: top
       border-radius: 70px
-      transition: all .3s
+      transition: all .5s ease-in-out
+      cursor: pointer
 
       &:hover
-        -moz-transform: rotate(540deg)
-        -o-transform: rotate(540deg)
-        -webkit-transform: rotate(540deg)
-        transform: rotate(540deg)
+        -moz-transform: scale(1.1)
+        -o-transform: scale(1.1)
+        -webkit-transform: scale(1.1)
+        transform: scale(1.1)
     .author-info
       &__name
         font-size: 1.1rem
@@ -73,13 +74,13 @@
         cursor: pointer
       
       i
-        transition: all 0.3s
+        transition: all 0.5s
         
         &:hover
-          -moz-transform: rotate(540deg)
-          -o-transform: rotate(540deg)
-          -webkit-transform: rotate(540deg)
-          transform: rotate(540deg)
+          -moz-transform: scale(1.2)
+          -o-transform: scale(1.2)
+          -webkit-transform: scale(1.2)
+          transform: scale(1.2)
         
 
     a#bookmark-it
