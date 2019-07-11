@@ -1,6 +1,6 @@
+--- # ---------------
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
-# ---------------
 theme_color:
   enable: true
   main: "#143762"
@@ -9,7 +9,7 @@ theme_color:
   text_selection: "#bba159"
   link_color: "#ef5202"
   hr_color: "#96a7b6"
-  read-mode-bg_color: '#FAF9DE'
+  read-mode-bg_color: "#FAF9DE"
 
 # Main menu navigation
 # format: xxx: /xxx/||icon
@@ -22,7 +22,6 @@ menu:
   Link: /link/||fa fa-link
   About: /about/||fa fa-heart
 #   #XXX: /xxx
-
 
 # Favicon
 # ---------------
@@ -41,7 +40,6 @@ favicon: /img/favicon.ico
 #   mask_icon: /img/pwa/safari-pinned-tab.svg
 #   shortcut_icon: /img/favicon.ico
 
-
 # Highlight theme
 # ---------------
 highlight_theme: light
@@ -50,7 +48,7 @@ highlight_copy: true
 code_word_wrap: false
 
 # Nav settings
-# formal: 
+# formal:
 #   icon: link
 # ---------------
 social:
@@ -68,7 +66,6 @@ algolia_search:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
     hits_stats: "${hits} results found in ${time} ms"
-
 
 # Local search
 # Please see doc for more details: https://jerryc.me/posts/21cfbf15/#本地搜索
@@ -91,18 +88,15 @@ mathjax:
 katex:
   enable: false
   cdn:
-    css: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css  
+    css: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
   hide_scrollbar: true
-
-
 
 # Analysis
 # ---------------
-# baidu_analytics: 
+# baidu_analytics:
 
 #Google Analytics
 google_analytics:
-
 
 # stylesheets loaded in the <head>
 # ---------------
@@ -129,7 +123,6 @@ cdn:
     js-cookies: https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js
     lozy: https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js
 
-
 # Post info settings
 # ---------------
 # avatar: /img/avatar.png
@@ -153,7 +146,6 @@ archive_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/archive.jpg
 lodding_bg:
   flink: /img/friend_404.gif
   post_page: /img/404.jpg
-
 
 post_meta:
   date_type: both # or created or updated 文章日期是创建日或者更新日或都显示
@@ -181,7 +173,6 @@ auto_excerpt:
   enable: true
   length: 150
 
-
 # Share System
 # ---------------
 addThis:
@@ -208,23 +199,23 @@ addtoany:
 # ---------------
 disqus:
   enable: false
-  shortname: 
-  
+  shortname:
+
 # laibili:
-  # enable: false
-  # uid:
+# enable: false
+# uid:
 
 # gitment
-  # enable: false
-  # owner: 
-  # repo: 
-  # client_id: 
-  # client_secret: 
+# enable: false
+# owner:
+# repo:
+# client_id:
+# client_secret:
 
 # gitalk:
 #   enable: false
-#   client_id: 
-#   client_secret: 
+#   client_id:
+#   client_secret:
 #   repo:
 #   owner:
 #   admin:
@@ -235,8 +226,8 @@ disqus:
 # valine comment system. https://valine.js.org
 valine:
   enable: false # if you want use valine,please set this value is true
-  appId:   # leancloud application app id
-  appKey:   # leancloud application app key
+  appId: # leancloud application app id
+  appKey: # leancloud application app key
   notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
   verify: false # valine verify code (true/false)
   pageSize: 10 # comment list page size
@@ -256,7 +247,7 @@ footer_copyright:
 
 ICP:
   enable: false
-  url: 
+  url:
   text:
 
 # busuanzi count for PV / UV in site
@@ -264,9 +255,6 @@ busuanzi:
   site_uv: true
   site_pv: true
   page_pv: true
-
-
-
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -297,27 +285,21 @@ Flink:
   info: Blog 簡介： 今日事,今日畢
   comment: 如果需要交換友鏈,請留言
 
- 
-
 runtimeshow:
   enable: true
   start_date: 6/7/2018 00:00:00
 
-
 nightshift:
   enable: true
 
-
 activate_power_mode:
   enable: false
-
-
 
 announcement:
   content: 感謝訪問本站，若喜歡請收藏 ^_^
 
 reward:
-  enable: true
+  enable: false
   QR_code:
     - itemlist:
         img: /img/wechat.jpg
@@ -339,10 +321,8 @@ canvas_ribbon:
   zIndex: -1
   click_to_change: false
 
-
 canvas_ribbon_piao:
   enable: true
-
 
 # 避免重複網址分散seo
 canonical: true
@@ -362,7 +342,6 @@ font:
   font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB,"Microsoft JhengHei", "MicrMicrosoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
   code-font: consolas, Menlo, "PingFang SC", "Microsoft JhengHei","Microsoft YaHei", monospace, Helvetica Neue For Number
 
-
 #水平分隔綫
 hr:
   enable: false
@@ -371,7 +350,7 @@ hr:
   icon-top: -20px
 
 # 主頁subtitle
-subtitle: 
+subtitle:
   enable: true
   sub1: 今日事,今日畢
   sub2: Never put off till tomorrow what you can do today
@@ -385,7 +364,6 @@ aside:
   card_tags: true
   card_archives: true
   card_webinfo: true
-
 
 ## chinese traditional to Simplified
 translate:
@@ -402,7 +380,6 @@ translate:
   msgToTraditionalChinese: "繁"
   #當文字是繁體時，按鈕顯示的文字
   msgToSimplifiedChinese: "简"
-
 
 # 鼠標點擊效果
 fireworks:
